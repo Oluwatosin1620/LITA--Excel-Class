@@ -2,6 +2,22 @@
 This is where I document all Excel projects learnt from the Incubation Hub
 
 
+[Project Overview](*project-overview)
+[Excel functions](*excel-functions)
+[Mathematical & Trigonometric Functions](*mathematics&trigonometrical-functions)
+[Logical Functions](*logical-functions)
+[Text Functions](*text-functions)
+[Volatile Functions](*volatile-functions)
+[Lookup & Reference Functions](*lookup&reference-functions)
+[Statistical Functions](*statistical-functions)
+[Conditional Functions](*conditional-functions)
+[Date & Time Functions](*data&time-functions)
+[Array Functions](*array-functions)
+[CONDITIONAL FORMATTING](*conditional-formatting)
+[REFERENCING](*referencing)
+[Key Points](*key-points)
+
+
 ## Project 1: EXCEL FUNCTIONS
 
 ### Project Overview
@@ -33,7 +49,7 @@ Excel functions are categorized based on their purpose and usage. Here is a brea
    - **LEN**: Returns the number of characters in a string.
    - **TRIM**: Removes extra spaces from a string, leaving single spaces between words.
 
-### 4. Volatile Functions: 
+### 4. Volatile Functions 
    Functions that recalculate anytime a change is made to the workbook, such as entering data, moving to another cell, or opening the workbook.
    - **RAND** / **RANDBETWEEN**: Returns a random number between two specified numbers
    - **RAND**: Returns a random number between 0 and 1. It generates a new random number every time Excel recalculates.
@@ -54,7 +70,7 @@ Excel functions are categorized based on their purpose and usage. Here is a brea
    - **MEDIAN**: Finds the median value in a range.
    - **STDEV**: Calculates the standard deviation of a set of values.
 
-### 7. Conditional Aggregate Functions 
+### 7. Conditional Functions 
 These functions perform calculations based on specific conditions or criteria, allowing you to aggregate data selectively.
    - **SUMIF**: Adds up values in a range that meet a specified condition.
    - **MINIF**: Finds the minimum value in a range that meets a condition. 
@@ -82,18 +98,18 @@ These functions perform calculations based on specific conditions or criteria, a
 Conditional formatting in Excel is a feature that allows you to apply specific formatting—like colours, bolding, or font changes—to cells based on the values they contain. It is a tool for visually analyzing and highlighting important data, making it easier to spot trends, identify outliers, or flag specific entries.
 
 ### Examples of Conditional Formatting Uses
-1. Highlighting Duplicate Values: identifies repeated entries in a dataset.
-2. Data Bars: Displays bars within cells to visually represent the value's magnitude.
-3. Color Scales: This applies a gradient of colours based on cell values, like shifting from red (low) to green (high) for easier comparison.
-4. Icon Sets: Add icons (like arrows or flags) to indicate trends, performance, or categories based on cell values.
-5. Custom Formulas: To use formulas to apply more specific formatting (e.g., colouring cells if a value is above the average).
+1. **Highlighting Duplicate Values**: identifies repeated entries in a dataset.
+2. **Data Bars**: Displays bars within cells to visually represent the value's magnitude.
+3. **Color Scales**: This applies a gradient of colours based on cell values, like shifting from red (low) to green (high) for easier comparison.
+4. **Icon Sets**: Add icons (like arrows or flags) to indicate trends, performance, or categories based on cell values.
+5. **Custom Formulas**: To use formulas to apply more specific formatting (e.g., colouring cells if a value is above the average).
 
 
 ### REFERENCING
-1. Absolute Referencing: Keeps the cell reference constant, even when copied elsewhere. E.g $E$9
-2. Relative Referencing: Changes when a formula is copied or dragged to another cell. E.g  E9
-3. Column Constant: This is useful when you want only the column of the cell reference to remain constant. E.g $E9 
-4. Row Constant: This is useful when you want only the row of the cell reference to remain constant. E.g E$9
+1. **Absolute Referencing**: Keeps the cell reference constant, even when copied elsewhere. E.g $E$9
+2. **Relative Referencing**: Changes when a formula is copied or dragged to another cell. E.g  E9
+3. **Column Constant**: This is useful when you want only the column of the cell reference to remain constant. E.g $E9 
+4. **Row Constant**: This is useful when you want only the row of the cell reference to remain constant. E.g E$9
 
 #### Key Points:
 1. To create a chart in your Pivot Table: **Alt + F1**
