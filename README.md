@@ -34,8 +34,11 @@ Excel functions are categorized based on their purpose and usage. Here is a brea
    - **TRIM**: Removes extra spaces from a string, leaving single spaces between words.
 
 ### 4. Volatile Functions: 
-   Functions that occur anytime a change is made on the workbook,    
-   - **RAND** / **RANDBETWEEN**: Generates random numbers.
+   Functions that recalculate anytime a change is made to the workbook, such as entering data, moving to another cell, or opening the workbook.
+   - **RAND** / **RANDBETWEEN**: Returns a random number between two specified numbers
+   - **RAND**: Returns a random number between 0 and 1. It generates a new random number every time Excel recalculates.
+   - **TODAY**: Returns the current date.
+   - **FORMULATEXT**: Displays the formula in a referenced cell as text.
 
 ### 5. Lookup & Reference Functions
    - **VLOOKUP**: Searches for a value in the first column of a range and returns a value in the same row from another column.
@@ -51,6 +54,12 @@ Excel functions are categorized based on their purpose and usage. Here is a brea
    - **MEDIAN**: Finds the median value in a range.
    - **STDEV**: Calculates the standard deviation of a set of values.
 
+### 7. Conditional Aggregate Functions 
+These functions perform calculations based on specific conditions or criteria, allowing you to aggregate data selectively.
+   - **SUMIF**: Adds up values in a range that meet a specified condition.
+   - **MINIF**: Finds the minimum value in a range that meets a condition. 
+   - **MAXIF, MAXIFS**: Finds the maximum value in a range that meets a condition.
+
 #### OTHER FUNCTIONS DISCOVERED:
 
 ### 1. Date & Time Functions
@@ -61,7 +70,41 @@ Excel functions are categorized based on their purpose and usage. Here is a brea
    - **DATEDIF**: Calculates the difference between two dates in days, months, or years.
 
 ### 2. Array Functions
-   - **
+     Functions that perform operations on a range of values (an array) rather than a single value, which enables calculations across multiple rows, columns, or ranges. They are useful for tasks like sorting, filtering, transposing, and manipulating data.
+   - **WRAPROWS**: Takes a single row and splits into multiple rows based on a specified number of values per row.
+   - **TRANSPOSE**: Converts a vertical range of cells to a horizontal range (or vice versa).
+   - **FILTER**: Filters an array based on a specified condition.
+   - **XLOOKUP**: An advanced lookup function that searches for a value in a range and returns the corresponding value from another range.
+   - **TEXTSPLIT**: Splits a text string into an array based on a specified delimiter.
 
 
+## CONDITIONAL FORMATTING
+Conditional formatting in Excel is a feature that allows you to apply specific formatting—like colours, bolding, or font changes—to cells based on the values they contain. It is a tool for visually analyzing and highlighting important data, making it easier to spot trends, identify outliers, or flag specific entries.
+
+### Examples of Conditional Formatting Uses
+1. Highlighting Duplicate Values: identifies repeated entries in a dataset.
+2. Data Bars: Displays bars within cells to visually represent the value's magnitude.
+3. Color Scales: This applies a gradient of colours based on cell values, like shifting from red (low) to green (high) for easier comparison.
+4. Icon Sets: Add icons (like arrows or flags) to indicate trends, performance, or categories based on cell values.
+5. Custom Formulas: To use formulas to apply more specific formatting (e.g., colouring cells if a value is above the average).
+
+
+### REFERENCING
+1. Absolute Referencing: Keeps the cell reference constant, even when copied elsewhere. E.g $E$9
+2. Relative Referencing: Changes when a formula is copied or dragged to another cell. E.g  E9
+3. Column Constant: This is useful when you want only the column of the cell reference to remain constant. E.g $E9 
+4. Row Constant: This is useful when you want only the row of the cell reference to remain constant. E.g E$9
+
+#### Key Points:
+1. To create a chart in your Pivot Table: **Alt + F1**
+2. To open the format cell dialogue box: **Ctrl + 1**
+3. To bring out the unique options in a column (Auto Filter): **Ctrl + Shift + L**
+4. To lock a cell for Absolute Referencing: **F4**
+5. Data Validation shortcut: **Alt + AVV**
+6. Functional Argument Box / Highlight all cells: **Ctrl + A**
+7. To hide a column: **Ctrl + O**
+8. To freeze a customised random number: **Ctrl + ESV**
+9. To convert data to the table: **Ctrl + T**
+10. To make digits in thousands: **Ctrl + Shift + 1**
+11. To separate first and last names into different columns (then follow the steps till achieved aim): **Ctrl + A +E**
 
